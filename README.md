@@ -83,9 +83,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
    ```bash
    git clone https://github.com/MohamedAderak/GestionStock.git
-        
+        ```
    ```bash
-   cd GestionStock
+   cd GestionStock```
 
   ```bash
   composer install
