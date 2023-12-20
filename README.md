@@ -84,25 +84,30 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
    ```
    git clone https://github.com/MohamedAderak/GestionStock.git
    ```
+   I. Navigate to the Project Directory:
    ```
    cd GestionStock
    ```
-
-  ```bash
-  composer install
-
-  ```bash
-  cp .env.example .env
-
-  ```bash
-  php artisan key:generate
-
-  ```bash
-  php artisan migrate
- 
-  ```bash
-  php artisan serve
-
+   II. Install Dependencies:
+   ```
+   composer install
+   ```
+   III. Create a Copy of the .env File:
+   ```
+   cp .env.example .env
+   ```
+   IV. Generate Application Key:
+   ```
+   php artisan key:generate
+   ```
+   V. Run Migrations:
+   ```
+   php artisan migrate
+   ```
+   VI. Serve the Application:
+   ```
+   php artisan serve
+   ```
 
 
 
