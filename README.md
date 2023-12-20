@@ -66,6 +66,46 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+<h1 align="center">GestionStock</h1>
+
+
+## Installation
+
+1. **Install Composer:**
+
+   Download and install Composer from [https://getcomposer.org/](https://getcomposer.org/).
+
+2. **Install Git:**
+
+   Download and install Git from [https://git-scm.com/](https://git-scm.com/).
+
+3. **Clone the Laravel Repository:**
+
+   ```bash
+   git clone https://github.com/MohamedAderak/GestionStock.git
+        
+   ```bash
+   cd GestionStock
+
+  ```bash
+  composer install
+
+  ```bash
+  cp .env.example .env
+
+  ```bash
+  php artisan key:generate
+
+  ```bash
+  php artisan migrate
+ 
+  ```bash
+  php artisan serve
+
+
+
+
+
 <img src="https://i.postimg.cc/3RZsy4RJ/Untitle11d.png" width="400" >
 <img src="https://i.postimg.cc/yxYw01gh/Untitled585.png" width="400" >
 <img src="https://i.postimg.cc/Zn7XcGpG/Untitlqzdqzed.png" width="400" >
